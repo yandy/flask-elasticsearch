@@ -1,10 +1,10 @@
 from flask import current_app
-from pyelasticsearch import ElasticSearch as PyElasticSearch
+from elasticsearch import Elasticsearch as PyElasticSearch
 
 
 class ElasticSearch(object):
     """
-    A thin wrapper around pyelasticsearch.ElasticSearch()
+    A thin wrapper around the official elasticsearch python package.
     """
     def __init__(self, app=None):
         if app is not None:
