@@ -11,11 +11,7 @@ Installation
 
 Flask-ElasticSearch is pip installable.
 
-    pip install Flask-ElasticSearch
-
-You can install the latest development version like so:
-
-    pip install http://github.com/kazoup/flask-elasticsearch/tarball/master#egg=Flask-ElasticSearch-dev
+    pip install http://github.com/yandy/flask-elasticsearch/tarball/master#egg=Flask-ElasticSearch
 
 Configure
 ---------
